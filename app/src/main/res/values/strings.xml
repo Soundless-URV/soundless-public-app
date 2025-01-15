@@ -1,0 +1,200 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Soundless</string>
+    <string name="main_title">Soundless</string>
+    <string name="main_dB">%1$.2f</string>
+    <string name="dB">dB</string>
+    <string name="no_classification">(no classification)</string>
+    <string name="main_start_tracking">Start recording</string>
+    <string name="main_stop_tracking">Stop recording</string>
+    <string name="dialog_android_version_title">Wearable needed for Sleep detection</string>
+    <string name="dialog_android_version_message">Android 10+ is not installed in your phone. In this case, you have to connect a device if you want to track your sleep.</string>
+    <string name="dialog_set_up_wearable">Set up now</string>
+    <string name="dialog_remind_later">Set up later</string>
+    <string name="dialog_dismiss">Do not set up</string>
+    <string name="snack_report">Recording stopped. Check the results at the Reports page.</string>
+    <string name="snack_no_report">You have not given permission to the app to generate the report.</string>
+    <string name="ok">OK</string>
+    <string name="incompatible_version">Incompatible version</string>
+    <string name="microphone_icon_desc">Microphone icon</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_summaries">Summaries</string>
+    <string name="nav_header_desc">Navigation Menu Image</string>
+    <string name="drawer_item_home">Analysis</string>
+    <string name="hamburger">Open/close menu</string>
+    <string name="drawer_item_summary">Reports</string>
+    <string name="drawer_item_map">Map</string>
+    <string name="tarragona_city">Tarragona</string>
+    <string name="reus_city">Reus</string>
+    <string name="tarragona_province">Province of Tarragona</string>
+    <string name="map_text">Map of %1$s %2$s\nGenerated: %3$s</string>
+    <string name="map_text_yesterday">Yesterday</string>
+    <string name="map_text_week">Last 7 days</string>
+    <string name="map_text_month">Last 30 days</string>
+    <string name="map_dialog_title">There is a new map, do you want to update?</string>
+    <string name="select_date">Select a date</string>
+    <string name="text_loading">-</string>
+    <string name="green_circle_desc">Green Circle</string>
+    <string name="next_button_1" tools:ignore="TypographyFractions"><![CDATA[Next (1/3) >]]></string>
+    <string name="next_button_2"><![CDATA[Next (2/3) >]]></string>
+    <string name="next_button_3"><![CDATA[Next (3/3) >]]></string>
+    <string name="heart_icon_desc">Health measurement</string>
+    <string name="start_and_stop_recording">Start and stop recording</string>
+    <string name="cancel_recording">Cancel recording</string>
+    <string name="recording_cancelled">Recording cancelled. No reports will be generated.</string>
+    <string name="tutorial_text_1_2">If you have a Fitbit device, set it up using the Fitbit app (<![CDATA[<a href="https://play.google.com/store/apps/details?id=com.fitbit.FitbitMobile">download</a>]]>). Then, link Soundless with Fitbit in the Configuration menu.</string>
+    <string name="tutorial_text_2_2">Go to the <b>Analysis</b> screen and start recording ▶.\n\nKeeping the app running at night, while sleeping, is recommended.\n\nIf you have a bracelet, wear it <b>during</b> the recording.</string>
+    <string name="drawer_item_about">About</string>
+    <string name="drawer_item_about_desc">About this project</string>
+    <string name="drawer_item_map_desc">Find reports in your area</string>
+    <string name="drawer_item_reports">Reports</string>
+    <string name="drawer_item_reports_desc">Your recordings</string>
+    <string name="drawer_item_home_desc">Create recordings</string>
+    <string name="project_desc">Soundless is a citizen science tool designed to measure the impact of nighttime noise on people\'s heart rate and sleep quality.</string>
+    <string name="project_footer"><b>Cloudlab - Cloud and Distributed Systems Lab</b></string>
+    <string name="project_title">Universitat Rovira i Virgili</string>
+    <string name="urv_logo_desc">Universitat Rovira i Virgili logo</string>
+    <string name="soundless_logo_desc">Soundless logo</string>
+    <string name="filter_text">FILTER BY…</string>
+    <string name="filter_date_btn_text">Date</string>
+    <string name="filter_location_btn_text">Location</string>
+    <string name="filter_exposure_btn_text">Noise</string>
+    <string name="start_date">Start date</string>
+    <string name="end_date">End date</string>
+    <string name="drawer_item_settings">Settings</string>
+    <string name="drawer_item_settings_desc">Customize your experience</string>
+    <string name="shared_preferences_filename">soundless-variables</string>
+    <string name="skip_button"><![CDATA[Skip >]]></string>
+    <string name="skip_tutorial">You can check the information in this tutorial in your Settings screen later.</string>
+    <string name="skip_once">Skip once</string>
+    <string name="skip_forever">Skip forever</string>
+    <string name="dialog_functionality_not_available">This functionality is not available at the moment.</string>
+    <string name="dialog_functionality_not_available_title">Not available</string>
+    <string name="channel_name">Recording notifications</string>
+    <string name="channel_description">Notifications displayed when the app is recording.</string>
+    <string name="notification_title">Recording active</string>
+    <string name="notification_content">Soundless is recording and detecting potential noises.</string>
+    <string name="stop">Stop</string>
+    <string name="cancel">Cancel</string>
+    <string name="active_recording_text">Recording right now. →</string>
+    <string name="no_active_recording_text">No recordings are currently underway. →</string>
+    <string name="exposure_title">Filter by noise level</string>
+
+    <string name="innocuous">Innocuous</string>
+    <string name="tolerable">Tolerable</string>
+    <string name="dangerous">Dangerous</string>
+    <string name="harmful">Harmful</string>
+
+    <string name="all">All</string>
+    <string name="switch_tutorial_active">Activate tutorial on startup?</string>
+    <string name="summary_message">Average dB: %1$.2f dB\nMax dB: %2$.2f dB\nMain classification: %3$s</string>
+    <string name="summary_title">%1$s</string>
+    <string name="save_and_stop">Save and stop</string>
+    <string name="cancel_without_saving">Cancel without saving</string>
+    <string name="anonymous_user">Anonymous user</string>
+    <string name="anonymous_description">No profile info available.</string>
+    <string name="feature_not_available">This feature is not available for now.</string>
+    <string name="switch_sync_health_provider">Enable Fitbit?</string>
+    <string name="error_loading_data">Error loading data. Try again later.</string>
+    <string name="error_sending_data">Error sending data to the database.</string>
+    <string name="correlate_health">Click to discover how noise affected your health.</string>
+    <string name="correlate_health_label">Import health data (Fitbit)</string>
+    <string name="unknown_classification">Unknown</string>
+    <string name="health_not_implemented">Health analysis is not supported in this version yet.</string>
+    <string name="access_granted_fitbit">Access to Fitbit granted!</string>
+    <string name="access_denied_fitbit">Access to Fitbit denied…</string>
+    <string name="health_not_enabled">Please go to Settings and connect with Fitbit.</string>
+    <string name="unknown_problem">An unknown problem occurred. Try again later.</string>
+    <string name="not_enough_data">Recording did not produce enough data to generate an analysis.</string>
+    <string name="info_title">Recording information</string>
+    <string name="info_end_date">End date</string>
+    <string name="info_start_date">Start date</string>
+    <string name="info_heart_rate_avg">Heart rate average</string>
+    <string name="info_heart_rate_peak">Peak heart rate</string>
+    <string name="info_sleep_changes">Sleep changes</string>
+    <string name="delete_recordings_btn">Delete recordings</string>
+    <string name="delete_recordings_question">Delete recordings?</string>
+    <string name="delete_recordings_message">Are you sure you want to completely remove the data you have recorded?\n</string>
+    <string name="delete_recording_question">Delete recording?</string>
+    <string name="delete_recording_message">Are you sure you want to completely remove this data you have recorded?\n</string>
+    <string name="delete_recordings_confirm">Delete</string>
+    <string name="delete_recordings_successful">Recordings deleted.</string>
+    <string name="delete_recording_successful">Recording deleted.</string>
+    <string name="delete_all_data_cancel">Cancel</string>
+    <string name="switch_research">Participate in research study?</string>
+    <string name="key_participate_in_study" translatable="false">participateInStudy</string>
+    <string name="key_skipped_tutorial" translatable="false">skippedTutorial</string>
+    <string name="key_num_times_popup_shown" translatable="false">numTimesPopupShown</string>
+    <string name="key_pop_up_days_left_counter" translatable="false">popupDaysLeftCounter</string>
+    <string name="key_pop_up_date" translatable="false">popUpDate</string>
+
+    <string name="fitbit_button_connect">Link with Fitbit</string>
+    <string name="fitbit_button_code">Insert Fitbit code</string>
+    <string name="switch_research_description">Disable only if you don\'t want dB or health metrics to be sent to the researchers. Remember: all data is anonymous.</string>
+    <string name="update_fitbit_ask">A Fitbit account has been configured already. Do you want to replace or update it?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <string name="tutorial">How does Soundless work?</string>
+    <string name="first_step">Prepare your bracelet</string>
+    <string name="second_step">Record noise</string>
+    <string name="third_step">Check results</string>
+
+    <string name="tutorial_buttons">Connect and code buttons</string>
+    <string name="insert_fitbit_code">Insert Fitbit code</string>
+    <string name="paste_here">Paste your code here</string>
+    <string name="no_current_fitbit_code">Fitbit code not found. Insert a valid code below.</string>
+    <string name="current_fitbit_code">Current Fitbit code: %1$s\n\nYou can change it below:</string>
+
+    <string name="heart_rate">Heart rate</string>
+    <string name="health_data_imported">Health data imported.</string>
+    <string name="not_available">Not available</string>
+    <string name="tutorial_text_3_1">Visualize data about your recordings in the <b>Reports</b> screen.</string>
+    <string name="tutorial_text_3_2">Finally, you can simply import health data from Fitbit in one tap. This will allow you to see whether noise is impacting your health.</string>
+    <string name="tutorial_text_2_1">Remember: Soundless only saves decibels (dB), it does not store sound you record.</string>
+
+    <string name="switch_sound">dB graph</string>
+    <string name="switch_heart">Heart rate graph</string>
+
+    <string name="chart_seconds">Seconds</string>
+    <string name="chart_hours">Hours</string>
+    <string name="code_inserted">Code inserted!</string>
+
+    <string name="telegram_button">Telegram Button</string>
+    <string name="telegram_text">Soundless Telegram Group</string>
+    <string name="telegram_message">Thanks for collaborating!\n\nYour contribution is important to reduce noise in your neighborhood or city.\n\nIf you want, you can join the Telegram group, this is a private, anonymous and safe group to share opinions and queries about the app and the project with our research team.</string>
+
+    <string name="switch_pop_up_telegram">Show Telegram reminder?</string>
+    <string name="internet_not_available">Internet not available.</string>
+    <string name="end_of_study">The study has concluded - you will be informed about the results. Thanks for your participation!</string>
+
+    <string name="drawer_item_sensitivity">Sensitivity</string>
+    <string name="sensitivity_icon">Sensitivity icon</string>
+    <string name="drawer_item_sensitivity_desc">Your sensitivity level</string>
+    <string name="number_recordings_extracted">%d recordings</string>
+
+    <string name="heart_sensitivity">Heart rate sensitivity</string>
+    <string name="sleep_sensitivity">Sleep sensitivity</string>
+    <string name="combined_sensitivity">Sensitivity of both</string>
+    <string name="sensitivity_title">Your sensitivity levels are:</string>
+
+    <string name="extracted_title">Values extracted from:</string>
+    <string name="valid_recordings_title">Only those recordings with health data will count</string>
+    <string name="explanation_title">Explanation:</string>
+    <string name="explanation_text">This value represents the level (dB) at which a noise begins to seriously affect your heart rate, sleep, or both at the same time. For this reason, these values will be more accurate the more health data recordings you have recorded.</string>
+    <string name="remainder_text">Remember that the WHO sets a value of 45 dB as the legal limit at night.</string>
+
+    <string name="percentage" translatable="false">%d%%</string>
+    <string name="default_percentage" translatable="false">0%</string>
+    <string name="noise_incidence_title">Nights with noise incidences:</string>
+    <string name="heart_incidence_title">Nights where a noise has affected your heart:</string>
+    <string name="sleep_incidence_title">Nights where a noise has woken you up:</string>
+
+    <string name="low_sensitivity">Low sensitivity level</string>
+    <string name="average_sensitivity">Average sensitivity level</string>
+    <string name="high_sensitivity">High sensitivity level</string>
+    <string name="green_semaphore" translatable="false">🟢</string>
+    <string name="yellow_semaphore" translatable="false">🟡</string>
+    <string name="red_semaphore" translatable="false">🔴</string>
+
+    <string name="not_enough_sensitivity_data">At this time there are not enough recordings with health data. Please continue using the app and making recordings to get more statistics on your sensitivity.</string>
+</resources>

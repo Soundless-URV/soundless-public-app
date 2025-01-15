@@ -1,0 +1,189 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Soundless</string>
+    <string name="main_title">Soundless</string>
+    <string name="main_dB">%1$.2f</string>
+    <string name="dB">dB</string>
+    <string name="no_classification">(sense classificar)</string>
+    <string name="main_start_tracking">Iniciar gravació</string>
+    <string name="main_stop_tracking">Finalitzar gravació</string>
+    <string name="dialog_android_version_title">Es necessita un wearable per la detecció de so</string>
+    <string name="dialog_android_version_message">No s\'ha detectat la versió d\'Android 10 o superior. Sisplau, connecta un dispositiu per analitzar el son.</string>
+    <string name="dialog_set_up_wearable">Ara</string>
+    <string name="dialog_remind_later">Després</string>
+    <string name="dialog_dismiss">No connectar</string>
+    <string name="snack_report">Gravació finalitzada. Pots veure els resultats a la pàgina Informes.</string>
+    <string name="snack_no_report">No has cedit permisos per generar un informe.</string>
+    <string name="ok">OK</string>
+    <string name="incompatible_version">Versió incompatible</string>
+    <string name="microphone_icon_desc">Icona micròfon</string>
+    <string name="menu_home">Inici</string>
+    <string name="menu_summaries">Informes</string>
+    <string name="nav_header_desc">Imatge menú de navegació</string>
+    <string name="drawer_item_home">Anàlisi</string>
+    <string name="hamburger">Obrir/tancar menú</string>
+    <string name="drawer_item_summary">Informes</string>
+    <string name="drawer_item_map">Mapa</string>
+    <string name="tarragona_city">Tarragona</string>
+    <string name="reus_city">Reus</string>
+    <string name="tarragona_province">Província de Tarragona</string>
+    <string name="map_text">Mapa de %1$s %2$s\nGenerat: %3$s</string>
+    <string name="map_text_yesterday">Ahir</string>
+    <string name="map_text_week">Últims 7 dies</string>
+    <string name="map_text_month">Últims 30 dies</string>
+    <string name="map_dialog_title">Hi ha un mapa més recent, vols actualitzar?</string>
+    <string name="select_date">Selecciona una data</string>
+    <string name="text_loading">-</string>
+    <string name="green_circle_desc">Cercle verd</string>
+    <string name="next_button_1" tools:ignore="TypographyFractions"><![CDATA[Següent (1/3) >]]></string>
+    <string name="next_button_2"><![CDATA[Següent (2/3) >]]></string>
+    <string name="next_button_3"><![CDATA[Següent (3/3) >]]></string>
+    <string name="heart_icon_desc">Mètriques de salut</string>
+    <string name="start_and_stop_recording">Iniciar i finalizar gravació</string>
+    <string name="cancel_recording">Cancel·lar gravació</string>
+    <string name="recording_cancelled">Gravació cancel·lada. No es generarà cap informe.</string>
+    <string name="tutorial_text_1_2">Si tens una polsera Fitbit, configura-la amb l\'app de Fitbit (<![CDATA[<a href="https://play.google.com/store/apps/details?id=com.fitbit.FitbitMobile">descarrega</a>]]>). Llavors, connecta Soundless amb Fitbit a Configuració.</string>
+    <string name="tutorial_text_2_2">Vés a la pantalla <b>Anàlisi</b> i comença a gravar ▶.\n\nRecomanem deixar-ho gravant a la nit, mentre dorms.\n\nSi tens una polsera, porta-la posada <b>durant</b> la gravació.</string>
+    <string name="tutorial_text_3_1">Visualitza les dades sobre les gravacions a la pantalla <b>Informes</b>.</string>
+    <string name="drawer_item_about">Informació</string>
+    <string name="drawer_item_about_desc">Sobre el projecte</string>
+    <string name="drawer_item_map_desc">Informes a la teva regió</string>
+    <string name="drawer_item_reports">Informes</string>
+    <string name="drawer_item_reports_desc">Gravacions que has fet</string>
+    <string name="drawer_item_home_desc">Comença una gravació</string>
+    <string name="project_desc">Soundless és una eina de ciència ciutadana dissenyada per mesurar l\'impacte del soroll nocturn a la freqüència cardíaca i la qualitat del somni de les persones.</string>
+    <string name="project_footer"><b>Cloudlab - Cloud and Distributed Systems Lab</b></string>
+    <string name="project_title">Universitat Rovira i Virgili</string>
+    <string name="urv_logo_desc">Logo de la Universitat Rovira i Virgili</string>
+    <string name="soundless_logo_desc">Logo de Soundless</string>
+    <string name="filter_text">FILTRAR SEGONS…</string>
+    <string name="filter_date_btn_text">Data</string>
+    <string name="filter_location_btn_text">Lloc</string>
+    <string name="filter_exposure_btn_text">Soroll</string>
+    <string name="start_date">Data d\'inici</string>
+    <string name="end_date">Data de fi</string>
+    <string name="drawer_item_settings">Configuració</string>
+    <string name="drawer_item_settings_desc">Personalitza l\'experiència</string>
+    <string name="shared_preferences_filename">soundless-variables</string>
+    <string name="skip_button"><![CDATA[Omet >]]></string>
+    <string name="skip_tutorial">Pots rellegir aquesta informació més endavant des de Configuració.</string>
+    <string name="skip_once">Omet un cop</string>
+    <string name="skip_forever">Omet sempre</string>
+    <string name="dialog_functionality_not_available">Aquesta funció no està disponible ara mateix.</string>
+    <string name="dialog_functionality_not_available_title">No disponible</string>
+    <string name="channel_description">Notificacions que apareixen quan l\'app grava.</string>
+    <string name="channel_name">Notificacions de gravació</string>
+    <string name="notification_title">Gravació en curs</string>
+    <string name="notification_content">Soundless està gravant i detectant possibles sorolls.</string>
+    <string name="stop">Aturar</string>
+    <string name="cancel">Cancel</string>
+    <string name="active_recording_text">Gravant ara mateix. →</string>
+    <string name="no_active_recording_text">Ara mateix no hi ha cap gravació activa. →</string>
+    <string name="exposure_title">Filtrar segons nivell de soroll</string>
+    <string name="switch_tutorial_active">Activar tutorial a l\'inici?</string>
+    <string name="summary_message">Mitjana dB: %1$.2f dB \nMàxim dB: %2$.2f dB \nClassificació principal: %3$s</string>
+    <string name="summary_title">%1$s</string>
+    <string name="save_and_stop">Desar i aturar</string>
+    <string name="cancel_without_saving">Cancel·lar sense desar</string>
+    <string name="anonymous_user">Usuari anònim</string>
+    <string name="anonymous_description">Sense informació d\'usuari.</string>
+    <string name="feature_not_available">Aquesta funció no està disponible ara mateix.</string>
+    <string name="switch_sync_health_provider">Habilitar Fitbit?</string>
+    <string name="error_loading_data">Error en carregar les dades. Proveu-ho més tard.</string>
+    <string name="error_sending_data">Error enviant les dades a la base de dades.</string>
+    <string name="correlate_health">Clica per conèixer com ha afectat el soroll la teva salut.</string>
+    <string name="correlate_health_label">Importa dades de salut (Fitbit)</string>
+    <string name="unknown_classification">Desconeguda</string>
+    <string name="health_not_implemented">Aquesta versió no inclou suport per l\'anàlisi de salut.</string>
+    <string name="access_granted_fitbit">Accés a Fitbit concedit!</string>
+    <string name="access_denied_fitbit">Accés a Fitbit denegat…</string>
+    <string name="health_not_enabled">Aneu a Configuració i habiliteu la connexió amb Fitbit.</string>
+    <string name="unknown_problem">Hi ha hagut algun problema. Proveu-ho més tard.</string>
+    <string name="innocuous">Innocu</string>
+    <string name="tolerable">Tolerable</string>
+    <string name="dangerous">Perillós</string>
+    <string name="harmful">Nociu</string>
+    <string name="all">Tot</string>
+    <string name="not_enough_data">La gravació no ha recollit prou dades per generar un anàlisi.</string>
+    <string name="info_title">Informació de gravació</string>
+    <string name="info_end_date">Data de fi</string>
+    <string name="info_start_date">Data d\'inici</string>
+    <string name="info_heart_rate_avg">Freq. cardíaca mitjana</string>
+    <string name="info_heart_rate_peak">Freq. cardíaca màxima</string>
+    <string name="info_sleep_changes">Canvis de son</string>
+    <string name="delete_recordings_btn">Esborrar gravacions</string>
+    <string name="delete_recordings_question">Esborrar gravacions?</string>
+    <string name="delete_recordings_message">Segur que vols esborrar definitivament totes les dades que has gravat?\n</string>
+    <string name="delete_recording_question">Esborrar gravació?</string>
+    <string name="delete_recording_message">Segur que vols esborrar definitivament aquestes dades que has gravat?\n</string>
+    <string name="delete_recordings_confirm">Esborrar</string>
+    <string name="delete_recordings_successful">Gravacions esborrades.</string>
+    <string name="delete_recording_successful">Gravació esborrada.</string>
+    <string name="delete_all_data_cancel">Cancel·lar</string>
+    <string name="switch_research">Participar en l\'estudi de recerca?</string>
+
+    <string name="fitbit_button_connect">Enllaçar amb Fitbit</string>
+    <string name="fitbit_button_code">Insertar codi Fitbit</string>
+    <string name="switch_research_description">Desactiva-ho si no vols enviar dB o mètriques de salut als investigadors. Recorda: totes les dades són anònimes.</string>
+    <string name="update_fitbit_ask">Ja s\'ha configurat un compte de Fitbit. Voleu substituir-lo o actualitzar-lo?</string>
+    <string name="yes">Sí</string>
+    <string name="no">No</string>
+
+    <string name="tutorial">Com funciona Soundless?</string>
+    <string name="first_step">Prepara la teva polsera</string>
+    <string name="second_step">Grava soroll</string>
+    <string name="third_step">Informa\'t</string>
+
+    <string name="tutorial_buttons">Botons de connectar amb Fitbit</string>
+    <string name="insert_fitbit_code">Inserta codi Fitbit</string>
+    <string name="paste_here">Enganxa el teu codi aquí</string>
+    <string name="no_current_fitbit_code">Codi Fitbit no trobat. Inserteu un codi vàlid aquí.</string>
+    <string name="current_fitbit_code">Codi Fitbit actual: %1$s\n\nPots canviar-lo aquí:</string>
+    <string name="heart_rate">Ritme cardíac</string>
+    <string name="health_data_imported">Dades de salut importades.</string>
+
+    <string name="switch_sound">Gràfic dB</string>
+    <string name="switch_heart">Gràfic polsacions</string>
+
+
+    <string name="not_available">No disponible</string>
+
+    <string name="chart_seconds">Segons</string>
+    <string name="chart_hours">Hores</string>
+    <string name="tutorial_text_3_2">Finalment, pots importar dades de salut de Fitbit en un clic. Això et permetrà veure si el soroll ha afectat la teva salut.</string>
+    <string name="tutorial_text_2_1">Recorda: Soundless només guarda els decibels (dB), no guarda el soroll gravat.</string>
+    <string name="code_inserted">Codi insertat!</string>
+
+    <string name="telegram_button">Botó de Telegram</string>
+    <string name="telegram_text">Grup de Telegram de Soundless</string>
+    <string name="telegram_message">Gràcies per col·laborar!\n\nLa teva aportació és important per reduir el soroll al teu barri o ciutat.\n\nSi vols, pots unir-te al grup de Telegram, aquest és un grup privat, anònim i segur per compartir opinions i consultes sobre l\'app i el projecte amb el nostre equip d\'investigació.</string>
+
+    <string name="switch_pop_up_telegram">Mostrar el recordatori sobre Telegram?</string>
+    <string name="internet_not_available">Internet no disponible.</string>
+    <string name="end_of_study">L\'estudi ha finalitzat, us informarem dels resultats. Gràcies per participar-hi!</string>
+
+    <string name="drawer_item_sensitivity">Sensibilitat</string>
+    <string name="sensitivity_icon">Icona de sensibilitat</string>
+    <string name="drawer_item_sensitivity_desc">El teu nivell de sensibilitat</string>
+    <string name="number_recordings_extracted">%d enregistraments</string>
+
+    <string name="heart_sensitivity">Sensibilitat del ritme cardíac</string>
+    <string name="sleep_sensitivity">Sensibilitat del somni</string>
+    <string name="combined_sensitivity">Sensibilitat de tots dos</string>
+    <string name="sensitivity_title">Els teus nivells de sensibilitat són:</string>
+
+    <string name="extracted_title">Valors extrets de:</string>
+    <string name="valid_recordings_title">Solament contaran aquelles gravacions amb dades de salut</string>
+    <string name="explanation_title">Explicació:</string>
+    <string name="explanation_text">Aquest valor representa el nivell (dB) pel qual un soroll comença a afectar greument el seu ritme cardíac, son o totes dues alhora. Per aquest motiu, aquests valors seran més precisos com més enregistraments amb dades de salut hagi registrat.</string>
+    <string name="remainder_text">Recordeu que l\'OMS marca com a límit legal durant la nit un valor de 45 dB.</string>
+
+    <string name="noise_incidence_title">Nits amb incidències de soroll:</string>
+    <string name="heart_incidence_title">Nits on un soroll t\'ha afectat el cor:</string>
+    <string name="sleep_incidence_title">Nits on un soroll t\'ha despertat:</string>
+
+    <string name="low_sensitivity">Nivell de sensibilitat baix</string>
+    <string name="average_sensitivity">Nivell de sensibilitat mitjà</string>
+    <string name="high_sensitivity">Nivell de sensibilitat alt</string>
+
+    <string name="not_enough_sensitivity_data">En aquest moment no hi ha prou enregistraments amb dades de salut. Si us plau, continueu utilitzant l\'aplicació i fent enregistraments per obtenir més estadístiques sobre la seva sensibilitat.</string>
+</resources>

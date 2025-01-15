@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary: a dark grey color. -->
+    <color name="primary">#FF524B4A</color>
+    <color name="primary_dark">#FF292322</color>
+    <color name="primary_light">#FF7E7776</color>
+
+    <!-- Secondary: a light beige color. -->
+    <color name="secondary">#FFEAD09F</color>
+    <color name="secondary_dark">#FFB79F70</color>
+    <color name="secondary_light">#FFFFFFD0</color>
+
+    <!-- Alert: a bright red to call for attention. -->
+    <color name="alert">#FFE00000</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>
