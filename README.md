@@ -32,6 +32,28 @@ Soundless uses several services within Firebase and Google Cloud Platform.
 ![soundless-diagram](https://user-images.githubusercontent.com/54351560/198060137-1418226e-7d81-4dd1-bd74-a5fb73b193b4.png)
 
 
+### Building and Running the Application
+
+#### Prerequisites
+1. [Android Studio](https://developer.android.com/studio) installed on your machine
+2. Firebase project set up with the necessary services
+
+#### Import the Project
+Follow the [instructions to import an existing project](https://developer.android.com/studio/projects/create-project#ImportAProject) into Android Studio:
+1. Open Android Studio
+2. Select "Open an Existing Project"
+3. Navigate to the soundless-public-app directory and click "OK"
+
+#### Firebase Setup
+1. Set up Firebase for the Soundless app following the [Firebase Android setup guide](https://firebase.google.com/docs/android/setup)
+2. Download the `google-services.json` file from your Firebase project console
+3. Place the `google-services.json` file in the app/ directory of the project
+
+#### Building and Running
+1. Connect a physical device or set up an emulator
+2. Follow the [guide to run apps on Android devices](https://developer.android.com/studio/run)
+3. Click the "Run" button in Android Studio, or use Shift+F10
+
 ### Contribution
 
 We welcome support in the following tasks:
