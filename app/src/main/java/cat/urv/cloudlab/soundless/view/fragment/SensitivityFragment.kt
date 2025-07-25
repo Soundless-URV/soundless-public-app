@@ -31,7 +31,7 @@ class SensitivityFragment : Fragment() {
 
     @Inject lateinit var mainRepository: MainRepository
 
-    private val viewModel: SensitivityViewModel by viewModels({ requireParentFragment() })
+    private val viewModel: SensitivityViewModel by viewModels()
 
     override fun onCreateView(
         inflater: LayoutInflater,

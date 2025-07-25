@@ -222,7 +222,7 @@ class RecordingService: LifecycleService() {
             // setOutputFormat(MediaRecorder.OutputFormat.AMR_NB)
             setOutputFormat(MediaRecorder.OutputFormat.AAC_ADTS)
             // setAudioEncoder(MediaRecorder.AudioEncoder.AMR_NB)
-            setAudioEncoder(AudioFormat.ENCODING_PCM_FLOAT)
+            setAudioEncoder(MediaRecorder.AudioEncoder.AAC)
             setOutputFile(recordingFileName)
             setAudioSamplingRate(AUDIO_SAMPLING_RATE)
         }

@@ -15,10 +15,9 @@ import javax.inject.Inject
 
 @HiltViewModel
 class SensitivityViewModel @Inject constructor(
-    application: Application
+    application: Application,
+    private val mainRepository: MainRepository
 ): AndroidViewModel(application) {
-
-    @Inject lateinit var mainRepository: MainRepository
 
     private val _allRecordingsData = MutableLiveData<List<SensitivityData>>()
     val allRecordingsData: LiveData<List<SensitivityData>> get() = _allRecordingsData

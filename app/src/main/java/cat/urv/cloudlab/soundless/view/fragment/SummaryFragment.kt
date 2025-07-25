@@ -61,7 +61,7 @@ class SummaryFragment : Fragment(), ItemClickListener {
     private var locationFilter: MetadataFilter = { true }
     private var exposureFilter: MetadataFilter = { true }
 
-    private val viewModel: RepositoryViewModel by viewModels({ requireParentFragment() })
+    private val viewModel: RepositoryViewModel by viewModels()
 
     private lateinit var progressController: ProgressController
 

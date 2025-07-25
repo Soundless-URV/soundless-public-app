@@ -9,6 +9,9 @@ import android.view.MenuItem
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.GravityCompat
+import androidx.core.view.ViewCompat
+import androidx.core.view.updatePadding
+import androidx.core.view.WindowInsetsCompat
 import androidx.navigation.NavController
 import androidx.navigation.fragment.NavHostFragment
 import cat.urv.cloudlab.soundless.R
@@ -47,6 +50,15 @@ class MainActivity : AppCompatActivity() {
 
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        // Add this block to handle Window Insets
+        ViewCompat.setOnApplyWindowInsetsListener(binding.toolbarBinding.toolbar) { view, windowInsets ->
+            val insets = windowInsets.getInsets(WindowInsetsCompat.Type.systemBars())
+            // Apply the top inset as padding to the toolbar
+            view.updatePadding(top = insets.top)
+            // Return a default value
+            WindowInsetsCompat.CONSUMED
+        }
 
         // Navigation Component
         val navController = getNavController()

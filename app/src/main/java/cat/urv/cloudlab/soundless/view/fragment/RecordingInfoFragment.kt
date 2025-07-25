@@ -45,7 +45,7 @@ class RecordingInfoFragment : Fragment() {
         get() = _binding!!
 
     @Inject lateinit var mainRepository: MainRepository
-    private val viewModel: RepositoryViewModel by viewModels({ requireParentFragment() })
+    private val viewModel: RepositoryViewModel by viewModels()
 
     // Get receiving arguments from navigation component
     private val args: RecordingInfoFragmentArgs by navArgs()

@@ -28,13 +28,12 @@ import javax.inject.Inject
  */
 @HiltViewModel
 class RepositoryViewModel @Inject constructor(
+    application: Application,
     private val savedStateHandle: SavedStateHandle,
-    application: Application
+    private val deviceLocation: DeviceLocation,
+    private val mainRepository: MainRepository,
+    private val healthRepositoryFactory: HealthRepositoryAssistedFactory
 ): AndroidViewModel(application) {
-
-    @Inject lateinit var deviceLocation: DeviceLocation
-    @Inject lateinit var mainRepository: MainRepository
-    @Inject lateinit var healthRepositoryFactory: HealthRepositoryAssistedFactory
 
     /**
      * Recording variable - used to know whether any recording is active.

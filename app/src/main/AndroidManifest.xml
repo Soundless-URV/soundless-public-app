@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="cat.urv.cloudlab.soundless">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
     <!-- Basic app permissions -->
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MICROPHONE"/>
 
     <!-- Provided at install time, no need to be requested -->
     <uses-permission android:name="android.permission.INTERNET" />

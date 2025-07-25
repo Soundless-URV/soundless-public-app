@@ -51,8 +51,8 @@ class MainFragment : Fragment() {
     // Injected classes and ViewModels
     @Inject lateinit var deviceLocation: DeviceLocation
 
-    // Important: do not remove requireParentFragment(), otherwise new ViewModels are created
-    private val repositoryViewModel: RepositoryViewModel by viewModels({ requireParentFragment() })
+    // Use viewModels() without parent fragment for Hilt ViewModels
+    private val repositoryViewModel: RepositoryViewModel by viewModels()
     private lateinit var recordingViewModel: RecordingViewModel
 
     // Recording Service

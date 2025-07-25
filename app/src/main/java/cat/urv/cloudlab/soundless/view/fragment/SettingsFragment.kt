@@ -35,7 +35,7 @@ class SettingsFragment : Fragment() {
     private val binding
         get() = _binding!!
 
-    private val viewModel: RepositoryViewModel by viewModels({ requireParentFragment() })
+    private val viewModel: RepositoryViewModel by viewModels()
 
     override fun onCreateView(
         inflater: LayoutInflater,

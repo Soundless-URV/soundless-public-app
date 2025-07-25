@@ -39,7 +39,7 @@ class MapFragment : Fragment() {
         getString(R.string.map_text_week),
         getString(R.string.map_text_month)
     )}
-    private val viewModel: MapViewModel by viewModels({ requireParentFragment() })
+    private val viewModel: MapViewModel by viewModels()
     private val args: MapFragmentArgs by navArgs()
 
 
